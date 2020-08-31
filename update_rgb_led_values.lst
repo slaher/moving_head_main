@@ -1,0 +1,31 @@
+   1               		.file	"update_rgb_led_values.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+  15               	.Ltext0:
+  16               	.global	Update_rgb_led_values
+  18               	Update_rgb_led_values:
+  19               	.LFB2:
+  20               	.LM1:
+  21               	.LVL0:
+  22               	/* prologue: function */
+  23               	/* frame size = 0 */
+  24               	/* epilogue start */
+  25               	.LM2:
+  26 0000 0895      		ret
+  27               	.LFE2:
+  53               	.Letext0:
+DEFINED SYMBOLS
+                            *ABS*:00000000 update_rgb_led_values.c
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:2      *ABS*:0000003f __SREG__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:3      *ABS*:0000003e __SP_H__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:4      *ABS*:0000003d __SP_L__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:5      *ABS*:00000034 __CCP__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:6      *ABS*:00000000 __tmp_reg__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:7      *ABS*:00000001 __zero_reg__
+C:\Users\slawekherok\AppData\Local\Temp/ccEWlQo8.s:18     .text:00000000 Update_rgb_led_values
+
+NO UNDEFINED SYMBOLS
